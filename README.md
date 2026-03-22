@@ -55,12 +55,16 @@ Implemented Linear Regression to predict future air quality:
 
 ---
 AUTHOR
+
 ADHITYAN R
+
 BTECH AI&DS
 
 CONTRIBUTOR
+
 VIGNESH S
 
+BE ECE
 
 
 
