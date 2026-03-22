@@ -54,19 +54,13 @@ Implemented Linear Regression to predict future air quality:
 
 
 ---
-
-## ⚙️ Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/adhityan15/smart-air-ai.git
-
 AUTHOR
 ADHITYAN R
 BTECH AI&DS
 
 CONTRIBUTOR
 VIGNESH S
+
 
 
 
