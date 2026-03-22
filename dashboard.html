@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SmartAir AI · Dashboard</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- 🔥 FIXED BODY -->
+<body class="bg apple-bg">
+
+  <!-- 🔥 NAVBAR -->
+  <nav class="apple-nav">
+
+    <div class="logo-text">SmartAir AI</div>
+
+    <div class="nav-actions">
+
+      <!-- ✅ ONLY ONE INSTALL BUTTON -->
+      <button id="installBtn" class="apple-btn install-btn">⬇ Install</button>
+
+      <!-- AI -->
+      <button id="toAI" class="apple-btn">AI</button>
+
+      <button id="toPredict" class="apple-btn">Prediction</button>
+
+      <!-- DISCONNECT -->
+      <button id="disconnect" class="apple-btn ghost">Disconnect</button>
+
+      <button id="logoutBtn" class="apple-btn ghost">Logout</button>
+
+    </div>
+
+  </nav>
+
+  <!-- 🔥 MAIN -->
+  <main class="apple-container">
+
+    <!-- 🔥 LIVE DATA -->
+    <section class="apple-grid">
+
+      <div class="glass-card">
+        <p class="label">Air Quality</p>
+        <h1 id="aqVal">--</h1>
+      </div>
+
+      <div class="glass-card">
+        <p class="label">Temperature</p>
+        <h1 id="tempVal">--</h1>
+      </div>
+
+      <div class="glass-card">
+        <p class="label">Humidity</p>
+        <h1 id="humVal">--</h1>
+      </div>
+
+      <div class="glass-card">
+        <p class="label">Gas</p>
+        <h1 id="gasVal">--</h1>
+      </div>
+
+      <div class="glass-card">
+        <p class="label">Pulse</p>
+        <h1 id="pulseVal">--</h1>
+      </div>
+
+    </section>
+
+    <!-- 🔥 CONTROLS -->
+    <section class="glass-card center">
+      <button id="connectBtn" class="apple-btn main">Connect Device</button>
+      <p id="status" class="muted">Status: Not Connected</p>
+    </section>
+
+    <!-- 🔥 AI INSIGHTS -->
+    <section class="glass-card">
+      <h3>AI Insights</h3>
+      <div id="suggestions">Waiting for data...</div>
+    </section>
+
+    <!-- 🔥 GRAPH -->
+    <section class="glass-card">
+      <h3>Live Trend</h3>
+      <canvas id="chart"></canvas>
+    </section>
+
+  </main>
+
+  <!-- 🔥 SCRIPTS -->
+  <script src="bluetooth.js"></script>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
