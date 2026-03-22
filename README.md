@@ -54,6 +54,8 @@ Implemented Linear Regression to predict future air quality:
 
 
 ---
+
+LIVE DEMO 🌐 : https://smart-air-ai.netlify.app
 AUTHOR
 
 ADHITYAN R
